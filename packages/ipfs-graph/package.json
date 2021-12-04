@@ -1,5 +1,5 @@
 {
-  "name": "ipfs-graph",
+  "name": "@perspective/ipfs-graph",
   "version": "0.0.0",
   "description": "Saves and retrieves graph data from ipfs node",
   "author": "Swapnil Singh <mail@swapnilsingh.me>",
@@ -18,6 +18,19 @@
     "url": "git@personal.github.com:project-perspective/monorepo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "vite",
+    "test": "vite --config vite.config.test.ts",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ipfs-core": "^0.12.2",
+    "js-ipfs": "0.0.301",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.0",
+    "vite-plugin-test": "0.0.5"
+  },
+  "devDependencies": {
+    "puppeteer": "^12.0.1"
   }
 }

@@ -1,11 +1,3 @@
 # `ipfs-graph`
 
-> TODO: description
-
-## Usage
-
-```
-const ipfsGraph = require('ipfs-graph');
-
-// TODO: DEMONSTRATE API
-```
+Saves and retrieves graph data from ipfs node

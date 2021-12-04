@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "setup": "lerna bootstrap",
+    "dev:app": "lerna run dev --stream --scope @perspective/app",
     "dev:website": "lerna run dev --stream --scope @perspective/website",
+    "test:app": "lerna run test --stream --scope @perspective/app",
+    "test:ipfs": "lerna run test --stream --scope @perspective/ipfs-graph",
     "test:website": "lerna run test --stream --scope @perspective/website"
   },
   "devDependencies": {
