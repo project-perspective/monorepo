@@ -1,0 +1,11 @@
+{
+  "name": "perspective",
+  "version": "0.0.0",
+  "scripts": {
+    "setup": "lerna bootstrap",
+    "dev:website": "lerna run dev --stream --scope @perspective/website"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
