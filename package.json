@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "setup": "lerna bootstrap",
-    "dev:website": "lerna run dev --stream --scope @perspective/website"
+    "dev:website": "lerna run dev --stream --scope @perspective/website",
+    "test:website": "lerna run test --stream --scope @perspective/website"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
