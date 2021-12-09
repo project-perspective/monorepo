@@ -1,4 +1,4 @@
-# `website`
+# `Components`
 
 Built with tailwind, web components (hybrids) and vite
 

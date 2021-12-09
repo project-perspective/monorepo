@@ -7,7 +7,7 @@
     "dev:website": "lerna run dev --stream --scope @perspective/website",
     "test:app": "lerna run test --stream --scope @perspective/app",
     "test:ipfs": "lerna run test --stream --scope @perspective/ipfs-graph",
-    "test:website": "lerna run test --stream --scope @perspective/website"
+    "test:components": "lerna run test --stream --scope @perspective/components"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
