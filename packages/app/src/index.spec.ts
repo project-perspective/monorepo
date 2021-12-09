@@ -1,30 +1,30 @@
 import index from './index'
 
 describe('project-perspective', () => {
-	it('should tell vision', () => {
+	it('identify itself', () => {
 		const element = new index().render();
-		expect(element.querySelector('[data-test-id="vision"]')).not.to.equal(null)
+		expect(element.querySelector('[data-test-id="vision"]').innerHTML).to.equal('Project Perspective')
 	})
 	
 	it('should tell why', () => {
 		const element = new index().render();
-		expect(element.querySelector('[data-test-id="why"]')).not.to.equal(null)
+		expect(element.querySelector('[data-test-id="why"]').innerHTML).to.equal("Different perspectives lead to a better understanding")
 	})
 
 	it('should tell what', () => {
 		const element = new index().render();
-		expect(element.querySelector('[data-test-id="what"]')).not.to.equal(null)
+		expect(element.querySelector('[data-test-id="what"]').innerText).to.equal("Perspective.wiki is a decentralised graph wiki without any censorship")
 	})
 
 	it('should tell who', () => {
 		const element = new index().render();
-		expect(element.querySelector('[data-test-id="who"]')).not.to.equal(null)
+		expect(element.querySelector('[data-test-id="who"]').innerHTML).to.equal("Anyone can add and learn from each others perspectives")
 	})
 
 	it('should have contribution link', () => {
 		const element = new index().render();
 		const link = element.querySelector('[data-test-id="contribute"]');
-		expect(link.getAttribute('href')).to.equal("https://github.com/project-perspective")
+		expect(link.getAttribute('href')).to.equal("https://github.com/project-perspective/monorepo")
 	})
 
 	it('I am present', () => {
