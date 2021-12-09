@@ -10,7 +10,7 @@ const render = () => html`
 				<p data-test-id="what" class="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">Perspective.wiki is a decentralised graph wiki without any censorship</p>
 				<p data-test-id="who" class="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">Anyone can add and learn from each others perspectives</p>
 				<a data-test-id="contribute" class="text-white my-8 inline-block" href="https://github.com/project-perspective/monorepo">github</a>
-				<form data-test-id="maya" class="text-white my-8 inline-block">
+				<form data-test-id="samsara" class="text-white my-8 inline-block">
 					<input data-test-id="IAM" placeholder="I AM" />
 				</form>
 			</div>

@@ -30,12 +30,12 @@ describe('project-perspective', () => {
 	it('I am present', () => {
 		const element = new index().render();
 		const input = element.querySelector('[data-test-id="IAM"]');
-		expect(element.querySelector('[data-test-id="IAM"]')).not.to.equal(null)
+		expect(element.querySelector('[data-test-id="IAM"]').getAttribute('placeholder')).to.equal("I AM")
 	})
 
 	it('I attaches to a object and creates subject', () => {
 		const element = new index().render();
-		const form = element.querySelector('[data-test-id="maya"]');
-		expect(element.querySelector('[data-test-id="maya"]')).not.to.equal(null)
+		const form = element.querySelector('[data-test-id="samsara"]');
+		expect(element.querySelector('[data-test-id="samsara"]')).not.to.equal(null)
 	})
 })
